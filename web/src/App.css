@@ -1,0 +1,64 @@
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+}
+
+.App .search-input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+
+.App .search-input:focus {
+  outline: none;
+}
+
+.App .add-btn {
+}
+
+.App .things {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.App .things-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App .name {
+  color: #333;
+}
+
+.App .icon-remove {
+  color: #671101;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.App .icon-remove:hover {
+  color: #970102;
+  cursor: pointer;
+}
